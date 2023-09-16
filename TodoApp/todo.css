@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.label-Container{
+    font-size: large;
+    font-style: italic;
+    margin-left: 8px;
+    text-align: center;
+    display: flex;
+    padding: 0.45rem;
+    border-radius: 5px;
+    border-left: 8px solid rgb(8, 8, 8);
+    align-items: center;
+    width: 100%;
+    background-color: rgb(197, 208, 212);
+
+}
+.liContainer{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+.dltContainer{
+    margin-left: auto;
+}
+.dltIcon{
+    cursor: pointer;
+    float: right;
+
+}
+.checked{
+    
+    text-decoration:line-through 2px solid rgb(232, 7, 7);
+}
